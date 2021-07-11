@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myProject",
-    "slug": "myProject",
+    "name": "ExpensesTracker",
+    "slug": "ExpensesTracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
