@@ -13,9 +13,11 @@ import {
 } from 'react-native';
 import styles from './Style.js';
 import { Dropdown } from 'react-native-material-dropdown-v2-fixed';
-import { Ionicons, MaterialIcons } from '@expo/vector-icons';
+import {MaterialIcons} from '@expo/vector-icons';
 import firebase from '../../config/firebase';
 import WavyHeader from '../Theme/Wave1';
+import List from './ListPage';
+
 
 export default class HomeP extends Component {
 
@@ -30,6 +32,10 @@ export default class HomeP extends Component {
       this.setState({TName:[], TAmount:[]});
 
       Alert.alert('SUCCESS','Transaction Name: '+this.state.TName+' Transaction Amount: '+this.state.TAmount);
+
+      setTimeout(() => {
+          this.props.navigation.navigate('List');
+      }, 5000);
   }
 
 

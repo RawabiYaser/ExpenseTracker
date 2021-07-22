@@ -7,14 +7,6 @@ export default StyleSheet.create({
     position: 'absolute',
     width: Dimensions.get('window').width
   },
-  headerText: {
-    textAlign: "center",
-    padding: 60,
-    marginTop: 160,
-    fontSize: 40,
-    fontWeight: "bold",
-    color: "aliceblue",
-  },
   Logo: {
         width: 105,
         height: 90,
@@ -28,7 +20,7 @@ export default StyleSheet.create({
     alignSelf: 'center',
   },
   inputNum: {
-    backgroundColor: "aliceblue",
+    backgroundColor: "lavender",
     height: 50,
     width: 160,
     borderRadius:5,
@@ -36,19 +28,19 @@ export default StyleSheet.create({
     borderColor: "mediumvioletred",
   },
   inputName: {
-    backgroundColor: "aliceblue",
+    backgroundColor: "lavender",
     height: 48,
     width: 170,
     marginRight:30,
     fontSize:13,
     borderRadius:5,
-    borderBottomWidth: 2.5,
+    borderBottomWidth: 1.75,
     borderColor: "mediumvioletred",
   },
   addButton: {
     width: 120,
     height: 36,
-    backgroundColor:"aliceblue",
+    backgroundColor:"lavender",
     flexDirection: 'row',
     justifyContent:'center',
     alignContent:'space-between',
@@ -81,8 +73,8 @@ export default StyleSheet.create({
     width: Dimensions.get('window').width
   },
   List: {
-    marginTop: 150,
-    marginBottom: 315,
+    marginTop: 156,
+    marginBottom: 316,
   },
   headerText: {
     textAlign: "center",
