@@ -56,7 +56,7 @@ export default class List extends Component{
 
                   <View style={styles.item_style}>
                       <Text style={styles.items}> {item.TName} </Text>
-                      <Text style={styles.items}> {item.TAmount} SR</Text>
+                      <Text style={styles.items}> {item.TAmount} SAR</Text>
                   </View>
               }
            />
